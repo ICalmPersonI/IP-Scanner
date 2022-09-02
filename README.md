@@ -1,4 +1,4 @@
 # IP-Scanner
-![alt text](https://github.com/ICalmPersonI/GameOfLife/blob/master/gifs/ezgif-5-b1ed7b1900.gif)
-![alt text](https://github.com/ICalmPersonI/GameOfLife/blob/master/gifs/ezgif-5-e6f76c711e.gif)
-![alt text](https://github.com/ICalmPersonI/GameOfLife/blob/master/gifs/ezgif-5-e7e9ce53b1.gif)
+![alt text](https://github.com/ICalmPersonI/IP-Scanner/tree/master/gifs/1.gif)
+![alt text](https://github.com/ICalmPersonI/IP-Scanner/tree/master/gifs/2.gif)
+![alt text](https://github.com/ICalmPersonI/IP-Scanner/tree/master/gifs/3.gif)
