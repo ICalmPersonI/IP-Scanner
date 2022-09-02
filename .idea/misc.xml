@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/IPExplorer/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.196" />
+        <entry key="..\:/AndroidStudioProjects/IPExplorer/app/src/main/res/drawable/button_border.xml" value="0.195" />
+        <entry key="..\:/AndroidStudioProjects/IPExplorer/app/src/main/res/drawable/ic_launcher_background.xml" value="0.196" />
+        <entry key="..\:/AndroidStudioProjects/IPExplorer/app/src/main/res/drawable/web_view.xml" value="0.196" />
+        <entry key="..\:/AndroidStudioProjects/IPExplorer/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjects/IPExplorer/app/src/main/res/layout/setting.xml" value="0.3772204806687565" />
+        <entry key="..\:/AndroidStudioProjects/IPExplorer/app/src/main/res/layout/table_row.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/IPExplorer/app/src/main/res/layout/web_view.xml" value="0.18697916666666667" />
+        <entry key="..\:/AndroidStudioProjects/IPScanner/app/src/main/res/drawable/close_shape.xml" value="0.195" />
+        <entry key="..\:/AndroidStudioProjects/IPScanner/app/src/main/res/drawable/ic_mtrl_chip_close_circle.xml" value="0.195" />
+        <entry key="..\:/AndroidStudioProjects/IPScanner/app/src/main/res/layout/activity_main.xml" value="0.67" />
+        <entry key="..\:/AndroidStudioProjects/IPScanner/app/src/main/res/layout/add_port_view.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/IPScanner/app/src/main/res/layout/conncetion_log_view.xml" value="1.1075581395348837" />
+        <entry key="..\:/AndroidStudioProjects/IPScanner/app/src/main/res/layout/connection_log_view.xml" value="1.1075581395348837" />
+        <entry key="..\:/AndroidStudioProjects/IPScanner/app/src/main/res/layout/ivalid_range_dialog.xml" value="0.7875" />
+        <entry key="..\:/AndroidStudioProjects/IPScanner/app/src/main/res/layout/port_manager.xml" value="0.22" />
+        <entry key="..\:/AndroidStudioProjects/IPScanner/app/src/main/res/layout/port_manager_view.xml" value="1.1075581395348837" />
+        <entry key="..\:/AndroidStudioProjects/IPScanner/app/src/main/res/layout/web_view.xml" value="0.18802083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

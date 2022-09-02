@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ip.View">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="@string/from" />
+
+            <EditText
+                android:id="@+id/first"
+                android:text="46"
+                style="@style/ip_input" />
+
+            <TextView
+                android:id="@+id/dot1"
+                style="@style/dot" />
+
+            <EditText
+                android:id="@+id/second"
+                android:text="164"
+                style="@style/ip_input" />
+
+            <TextView
+                android:id="@+id/dot2"
+                style="@style/dot" />
+
+            <EditText
+                android:id="@+id/third"
+                android:text="154"
+                style="@style/ip_input" />
+
+            <TextView
+                android:id="@+id/dot3"
+                style="@style/dot" />
+
+            <EditText
+                android:id="@+id/fourth"
+                android:text="120"
+                style="@style/ip_input" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="@string/to" />
+
+            <EditText
+                android:id="@+id/end_first"
+                android:text="@string/default_end_value"
+                style="@style/ip_input" />
+
+            <TextView
+                android:id="@+id/dot4"
+                style="@style/dot" />
+
+            <EditText
+                android:id="@+id/end_second"
+                android:text="@string/default_end_value"
+                style="@style/ip_input" />
+
+            <TextView
+                android:id="@+id/dot5"
+                style="@style/dot" />
+
+            <EditText
+                android:id="@+id/end_third"
+                android:text="@string/default_end_value"
+                style="@style/ip_input" />
+
+            <TextView
+                android:id="@+id/dot6"
+                style="@style/dot" />
+
+            <EditText
+                android:id="@+id/end_fourth"
+                android:text="@string/default_end_value"
+                style="@style/ip_input" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <Switch
+                android:id="@+id/https_on"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/https"
+                android:textSize="20sp"
+                android:gravity="center"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+            <EditText
+                android:id="@+id/timeout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="phone"
+                android:digits="0123456789"
+                android:maxLength="5"
+                android:hint="@string/timeout"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/open_connection_log_button"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginEnd="5dp"
+                android:text="@string/connection_log" />
+
+            <Button
+                android:id="@+id/port_manager_button"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginStart="5dp"
+                android:text="@string/port_manager" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/scan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="5dp"
+                android:text="@string/scan" />
+
+            <Button
+                android:id="@+id/stop"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="5dp"
+                android:enabled="false"
+                android:text="@string/stop" />
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:visibility="gone"
+            android:indeterminate="true"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:id="@+id/table_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/list_is_empty"
+                    android:gravity="center"
+                    android:textSize="30sp"/>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

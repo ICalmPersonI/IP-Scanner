@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">IP Scanner</string>
+    <string name="dot">.</string>
+    <string name="dash">—</string>
+    <string name="default_end_value">255</string>
+    <string name="scan">Scan</string>
+    <string name="stop">Stop</string>
+    <string name="back">Back</string>
+    <string name="OK">OK</string>
+    <string name="open_in_browser">Open in browser</string>
+    <string name="invalid_ip_range">Please set the octet in the range from 0 to 255.</string>
+    <string name="invalid_port">Please set the port in the range from 0 to 655356.</string>
+    <string name="invalid_timeout">Please set the timeout in the range from 0 to 100000 milliseconds.</string>
+    <string name="list_is_empty">List is empty</string>
+    <string name="safe_preview">Safe preview</string>
+    <string name="colon">:</string>
+    <string name="port">PORT</string>
+    <string name="timeout">TIMEOUT</string>
+    <string name="https">Https</string>
+    <string name="to">To</string>
+    <string name="from">From</string>
+    <string name="http_protocol">http</string>
+    <string name="https_protocol">https</string>
+    <string name="add_port">Add port</string>
+    <string name="default_port">80</string>
+    <string name="add">Add</string>
+    <string name="ports">Ports:</string>
+    <string name="port_manager">Port Manager</string>
+    <string name="connection_log">Connection log</string>
+    <string name="log_is_empty">Log is empty!</string>
+</resources>
